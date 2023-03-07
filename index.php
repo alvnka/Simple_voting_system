@@ -10,8 +10,8 @@
 <body>
  <form action="">
     <h1>Login</h1>
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username" required>
+    <label for="ID">ID</label>
+    <input type="text" id="ID" name="ID" required>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
     <button type="submit">Login</button>
