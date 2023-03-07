@@ -17,7 +17,7 @@ include 'home_page.php'
     <input type="text" id="ID" name="ID" required>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
-    <button type="submit" onclick="window.location.href='home_page.html'">Login</button>
+    <button type="submit">Login</button>
  </form>
 </body>
 </html>
