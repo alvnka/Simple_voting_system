@@ -1,3 +1,6 @@
+<?php
+include 'home_page.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +11,13 @@
     <title>Login</title>
 </head>
 <body>
- <form action="">
+ <form method="post" action="index.php">
     <h1>Login</h1>
     <label for="ID">ID</label>
     <input type="text" id="ID" name="ID" required>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
-    <button type="submit">Login</button>
+    <button type="submit" onclick="window.location.href='home_page.html'">Login</button>
  </form>
 </body>
 </html>
