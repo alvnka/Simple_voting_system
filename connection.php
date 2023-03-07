@@ -4,5 +4,5 @@ if(! $conn )
 {
  die('Could not connect: ' . mysqli_error($conn));
 }else
-echo '';
+echo 'Connection is succesful';
 ?>

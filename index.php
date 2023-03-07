@@ -1,3 +1,6 @@
+<?php
+include("connection.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
     <title>Login</title>
 </head>
 <body>
- <form action="">
+ <form action="login.php" brmethod="POST">
     <h1>Login</h1>
     <label for="ID">ID</label>
     <input type="text" id="ID" name="ID" required>
