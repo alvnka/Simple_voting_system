@@ -41,12 +41,12 @@ $row = mysqli_fetch_assoc($result);
             echo "<h4>".$position_name."</h4>";
             
             // Get the candidates for this position
-            $sql2="SELECT * FROM candidates WHERE position ID='$position_id'";
+            $sql2="SELECT * FROM candidates WHERE `position ID`='$position_id'";
             $result2 = mysqli_query($conn, $sql2);
             
             // Loop through each candidate
             while($row2 = mysqli_fetch_assoc($result2)){
-                $candidate_id = $row2['Candidate ID'];
+                $candidate_id = $row2['candidate ID'];
                 $candidate_name = $row2['Name'];
                 
                 // Display radio buttons for each candidate
