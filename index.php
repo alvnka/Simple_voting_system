@@ -1,5 +1,5 @@
 <?php
-include("connection.php")
+include("connection.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,8 @@ include("connection.php")
     <title>Login</title>
 </head>
 <body>
- <form action="login.php" brmethod="POST">
+
+ <form method="POST" action="login.php">
     <h1>Login</h1>
     <label for="ID">ID</label>
     <input type="text" id="ID" name="ID" required>
