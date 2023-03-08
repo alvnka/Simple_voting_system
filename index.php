@@ -18,7 +18,7 @@ include("connection.php");
     <input type="text" id="ID" name="ID" required>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
-    <button type="submit">Login</button>
+    <button type="submit" name="submit">Login</button>
  </form>
 </body>
 </html>
