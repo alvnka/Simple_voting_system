@@ -16,7 +16,7 @@ if(isset($_POST['submit_vote'])){
     $sql_positions = "SELECT * FROM positions";
     $result_positions = mysqli_query($conn, $sql_positions);
     while($row_positions = mysqli_fetch_assoc($result_positions)){
-        $position_id = $row_positions['PositionID'];
+        $position_id = $row_positions['Position ID'];
         $candidate_id = $_POST["position-$position_id"];
         
         // Update the candidate's vote count in the database
