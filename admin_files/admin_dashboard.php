@@ -6,6 +6,7 @@ session_start(); // start the session
 <html>
 <head>
   <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <h1>Welcome To The Admin Dashboard</h1>
