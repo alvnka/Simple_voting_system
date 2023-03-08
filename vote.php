@@ -15,7 +15,7 @@ $result_check_voted = mysqli_query($conn, $sql_check_voted);
 $row_check_voted = mysqli_fetch_assoc($result_check_voted);
 if($row_check_voted['Voted'] == 1){
     echo "You had already voted! Your vote has not been counted";
-    //header("Location: index.php");
+      
     exit();
 }
 
