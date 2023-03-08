@@ -1,6 +1,6 @@
 <?php
 include("connection.php");
-if(isset($_POST['submit'])){
+if(isset($_POST['submit_login'])){
     $ID = $_POST['ID'];
     $password = $_POST['password'];
     
@@ -9,6 +9,10 @@ if(isset($_POST['submit'])){
     $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
     $count = mysqli_num_rows($result);
     if($count==1){
+        session_start();
+        $_SESSION['ID'] = $row['ID'];
+        $_SESSION['username'] = $row['username'];
+        $_SESSION['voted'] = $row['voted'];
         header ("Location: home_page.php");
         exit();
     }
