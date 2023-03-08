@@ -19,7 +19,7 @@ include("connection.php");
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
     <button type="submit_login" name="submit_login">Login</button>
+    <button onclick="location.href='admin_files/admin_login.php'">Admin Login</button>
  </form>
- <button onclick="location.href='admin_files/admin_login.php'">Admin Login</button>
 </body>
 </html>
