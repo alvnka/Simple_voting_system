@@ -1,8 +1,10 @@
 <?php
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+$conn =  new mysqli("localhost", "root","", "voters_db");
+if(! $conn )
+{
+ die('Could not connect: ' . mysqli_error($conn));
 }
+
 
 // check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
