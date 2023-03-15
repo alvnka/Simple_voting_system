@@ -14,6 +14,10 @@ h1{
 label{
     color: white;
 }
+input{
+    align-items: center;
+    text-decoration: black;
+}
 .unordered_list li{
     font-size: 15px;
     padding-top: 16px;
