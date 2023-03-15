@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Add Candidate</title>
 	<link rel="stylesheet" href="../CSS/styles.css">
