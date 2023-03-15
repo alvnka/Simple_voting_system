@@ -1,8 +1,16 @@
+body{
+    background-color: darkslategrey;
+  }
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+}
+.unordered_list li{
+    font-size: 15px;
+    padding-top: 16px;
+    padding-bottom: 25px;
 }
 input {
     margin-bottom: 20px;
