@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+
+<!-- vee -->
+
 <head>
 	<title>Add Candidate</title>
 </head>
+
 <body>
 	<h1>Add Candidate</h1>
 
@@ -12,4 +16,5 @@
 		<input type="submit" value="Save">
 	</form>
 </body>
+
 </html>
