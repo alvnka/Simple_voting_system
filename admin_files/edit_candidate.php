@@ -33,7 +33,7 @@
 		echo "Candidate not found.";
 	}
 
-	// Close database connection
+	
 	$conn->close();
 	?>
 </body>
