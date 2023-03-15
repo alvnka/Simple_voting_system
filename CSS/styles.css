@@ -1,11 +1,18 @@
 body{
-    background-color: darkslategrey;
+    background-color: skyblue;
   }
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    border: grey;
+}
+h1{
+    color:black;
+}
+label{
+    color: blackw;
 }
 .unordered_list li{
     font-size: 15px;
@@ -21,6 +28,14 @@ input {
     max-width: 100%;
 }
 button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button{
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;

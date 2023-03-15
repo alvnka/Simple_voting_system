@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>View Results</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/W3.css">
 </head>
 <body>
 	<h1>View Results</h1>

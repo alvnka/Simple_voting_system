@@ -19,6 +19,7 @@ include("connection.php");
     <input type="text" id="ID" name="ID" required>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
+    <br>
     <button type="submit_login" name="submit_login">Login</button>
     <br>
     <button onclick="location.href='admin_files/admin_login.php'">Admin Login</button>

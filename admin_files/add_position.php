@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Add Position</title>
+	<link rel="stylesheet" href="../CSS/styles.css">
+	<link rel="stylesheet" href="../CSS/W3.css">
 </head>
+
 <body>
 	<h1>Add Position</h1>
 
@@ -16,4 +20,5 @@
 	<br>
 	<a href="manage_positions.php">Back to Manage Positions</a>
 </body>
+
 </html>

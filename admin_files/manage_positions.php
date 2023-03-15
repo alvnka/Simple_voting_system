@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Manage Positions</title>
+	<link rel="stylesheet" href="../CSS/styles.css">
+	<link rel="stylesheet" href="../CSS/W3.css">
 </head>
 <body>
 	<h1>Manage Positions</h1>
