@@ -81,20 +81,24 @@ $conn->close();
       <input type="text" id="ID" name="ID" required>
     </div>
     <br>
+    <br>
     <div>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
     </div>
+    <br>
     <br>
     <div>
       <label for="password">password:</label>
       <input type="password" id="password" name="password" required>
     </div>
     <br>
+    <br>
     <div>
       <label for="Voted">Voted:</label>
       <input type="boolean" id="Voted" name="Voted" required>
     </div>
+    <br>
     <br>
     <button type="submit" name="add_voter">Add Voter</button>
   </form>
