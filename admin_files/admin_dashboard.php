@@ -1,15 +1,21 @@
+<?php
+session_start(); // start the session
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add Candidate</title>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-	<h1>Add Candidate</h1>
-
-	<form method="post" action="save_candidate.php">
-		Name: <input type="text" name="name"><br>
-		Position ID: <input type="text" name="position_id"><br>
-		<input type="submit" value="Save">
-	</form>
+  <h1>Welcome To The Admin Dashboard</h1>
+  <ul>
+    <li><a href="manage_voters.php">Manage Voters</a></li>
+    <li><a href="manage_positions.php">Manage Positions</a></li>
+    <li><a href="manage_candidates.php">Manage Candidates</a></li>
+    <li><a href="view_results.php">View Results</a></li>
+    <li><a href="admin_logout.php">Logout</a></li>
+  </ul>
 </body>
 </html>
