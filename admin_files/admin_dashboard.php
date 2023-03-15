@@ -15,7 +15,7 @@ session_start(); // start the session
     <li><a href="manage_positions.php">Manage Positions</a></li>
     <li><a href="manage_candidates.php">Manage Candidates</a></li>
     <li><a href="view_results.php">View Results</a></li>
-    <li><a href="admin_logout.php">Logout</a></li>
+
   </ul>
 </body>
 </html>
