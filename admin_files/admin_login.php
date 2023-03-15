@@ -43,12 +43,12 @@ $conn->close();
     <label>Username:</label>
     <input type="text" name="username" required>
   </div>
-
+<br>
   <div>
     <label>Password:</label>
     <input type="password" name="password" required>
   </div>
-
+  <br>
   <?php if (!empty($error_message)) { ?>
     <div><?php echo $error_message; ?></div>
   <?php } ?>
