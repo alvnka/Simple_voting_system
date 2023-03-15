@@ -31,7 +31,8 @@ $conn->close();
 <html>
 <head>
   <title>Admin Login</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link rel="stylesheet" href="../CSS/W3.css">
 </head>
 <body>
 

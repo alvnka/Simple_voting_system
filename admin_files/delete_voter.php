@@ -41,7 +41,8 @@ $conn->close();
 <html>
 <head>
   <title>Delete Voter</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link rel="stylesheet" href="../CSS/W3.css">
 </head>
 <body>
   <h1>Delete Voter</h1>
