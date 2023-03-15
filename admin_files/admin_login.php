@@ -5,7 +5,7 @@ if(! $conn )
  die('Could not connect: ' . mysqli_error($conn));
 }
 
-
+session_start();
 // check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   // get user input
