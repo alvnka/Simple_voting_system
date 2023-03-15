@@ -26,7 +26,7 @@
 		echo "<form method='post' action='save_candidate.php'>";
 		echo "<input type='hidden' name='candidate_id' value='" . $row["candidate ID"] . "'>";
 		echo "Name: <input type='text' name='name' value='" . $row["Name"] . "'><br>";
-		echo "Position ID: <input type='text' name='position_id' value='" . $row["position ID"] . "'><br>";
+		echo "Position ID: <input type='text' name='Position_id' value='" . $row["Position ID"] . "'><br>";
 		echo "<input type='submit' value='Save'>";
 		echo "</form>";
 	} else {

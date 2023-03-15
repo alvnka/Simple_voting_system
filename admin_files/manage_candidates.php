@@ -21,9 +21,9 @@
 	if ($result->num_rows > 0) {
 		// Display candidates in a table
 		echo "<table>";
-		echo "<tr><th>candidate ID</th><th>Name</th><th>position ID</th><th>number of votes</th><th>Actions</th></tr>";
+		echo "<tr><th>candidate ID</th><th>Name</th><th>Position ID</th><th>number of votes</th><th>Actions</th></tr>";
 		while($row = $result->fetch_assoc()) {
-			echo "<tr><td>" . $row["candidate ID"] . "</td><td>" . $row["Name"] . "</td><td>" . $row["position ID"] . "</td><td>" . $row["number of votes"] . "</td><td><a href='edit_candidate.php?id=" . $row["candidate ID"] . "'>Edit</a> | <a href='delete_candidate.php?id=" . $row["candidate ID"] . "'>Delete</a></td></tr>";
+			echo "<tr><td>" . $row["candidate ID"] . "</td><td>" . $row["Name"] . "</td><td>" . $row["Position ID"] . "</td><td>" . $row["number of votes"] . "</td><td><a href='edit_candidate.php?id=" . $row["candidate ID"] . "'>Edit</a> | <a href='delete_candidate.php?id=" . $row["candidate ID"] . "'>Delete</a></td></tr>";
 		}
 		echo "</table>";
 	} else {
